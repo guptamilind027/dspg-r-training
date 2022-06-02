@@ -1,0 +1,40 @@
+---
+title: "R Practice"
+author: "MG"
+date: "6/2/2022"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Intro to markdown
+
+Markdown allows you to do things like **bold** , _italic_, `code font ` and more!
+
+MAke a list with asterisks like:
+* bold with double-asterisk
+* italics with underscores
+* code-type font with backticks
+
+You can also use hyphens instead of asterisks
+
+For numbered lists:
+1. bold....
+2. italics....
+3. code...
+
+Hyperlinks are like [Hyperlinked text](https://mylink.org)
+
+Load gapminder data along with plotting package
+```{r load_data}
+#This line will not run
+gap <- gapminder
+```
+
+```{r make-plot}
+plot(lifeExp ~ year, data=gap)
+```
+
+```{r}
+temp<-c(1,2,3) 
+```
